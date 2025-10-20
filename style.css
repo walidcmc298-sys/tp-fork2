@@ -18,4 +18,23 @@ body {
   0% {background:linear-gradient(45deg,#ff7e5f,#feb47b);}
   50% {background:linear-gradient(45deg,#6a11cb,#2575fc);}
   100% {background:linear-gradient(45deg,#11998e,#38ef7d);}
+/* Style du corps */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Style du titre */
+#main-title {
+  color: #1e88e5;           /* Bleu */
+  font-size: 4rem;          /* Taille du texte */
+  font-weight: 700;         /* Épaisseur */
+  text-transform: uppercase;/* Majuscules */
+  letter-spacing: 2px;      /* Espacement entre lettres */
+  text-align: center;
 }
