@@ -1,0 +1,20 @@
+/* Style du corps */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Style du titre */
+#main-title {
+  color: #1e88e5;           /* Bleu */
+  font-size: 4rem;          /* Taille du texte */
+  font-weight: 700;         /* Épaisseur */
+  text-transform: uppercase;/* Majuscules */
+  letter-spacing: 2px;      /* Espacement entre lettres */
+  text-align: center;
+}
